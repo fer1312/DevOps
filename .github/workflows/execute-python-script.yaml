@@ -19,6 +19,9 @@ jobs:
       with:
         python-version: '3.x'
 
+    - name: List files in the repository
+      run: ls -R
+
     - name: Run Python script
-      run: python act11_print_hello.py
+      run: python act11/act11_print_hello.py
 
